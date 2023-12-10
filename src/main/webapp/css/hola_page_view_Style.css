@@ -1,0 +1,416 @@
+  body { 
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+  }
+
+  *{
+    box-sizing: inherit;
+  }
+
+  #root{
+    min-height: 100%;
+  }
+
+  div{
+    display: block;
+  }
+
+
+.navbar {
+    position: relative;
+    height: 60px; 
+    padding: 0 20px;
+    margin: auto;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+
+.nav_bar_logo{
+      width: 105px;
+      height: 32px;
+      
+  }
+
+
+.navbar_text_bt{
+  display: flex;
+  grid-gap: 30px;
+  gap: 30px;
+  align-items: center;
+
+}
+
+
+.navbar_button{
+    font-weight: 600;
+    font-size: 1.0rem;
+    border: 0;
+    background-color: transparent;
+  }
+
+  .button{
+    outline: none;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .navbar_imagine{
+    position: static;
+  }
+
+  .navbar_warapper{
+    position: relative;
+  }
+
+  .bell_img{
+    width: 28px;
+    height: auto;
+  }
+
+  .navbar_line{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .line_img{
+    display: block;
+    height: 25px;
+    width: 25px;
+    padding-right: 8px;
+    object-fit: cover;
+  }
+
+
+  .navbar__icons {
+    list-style: none;
+    display: flex;
+    color: var(--icons-color);
+    margin: 0;
+    padding-left: 0;
+  }
+  
+
+  .navbar__icons li {
+    padding: 8px 12px;
+    margin: 0;
+  }
+
+  
+/* ---------------------------------------------메인 */
+
+
+
+.Select_all{
+    max-width: 920px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 16px;
+    width: 1024px;
+    margin: 0 auto;
+    color: #333;
+    grid-gap: 50px;
+    gap: 50px;
+    position: relative;
+}
+
+.section{
+  display: block;
+}
+
+.select_text_v01{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 6px;
+    font-size: 30px;
+    color: black;
+}
+
+.select_text{
+    margin-bottom: 20px;
+}
+
+.back_arrow{
+  width: 40px;
+}
+
+.studyContent_title_info {
+  margin-top: 12px;
+  padding-bottom: 32px;
+  border-bottom: 3px solid #f2f2f2;
+  display: flex;
+  grid-gap: 15px;
+  gap: 15px;
+  align-items: center;
+}
+
+.studyContent_user_ifo_all {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.studyContent_userImg_info {
+  cursor: pointer;
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  margin-right: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.studyContent_userName_info {
+  color: #333;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  padding-right: 15px;
+  border-right: 2px solid #e1e1e1;
+}
+
+
+.studyContent_registeredDate {
+  padding-left: 20px;
+  font-size: 18px;
+  color: #717171;
+} 
+
+/* 정보 */
+
+.info_board {
+    margin: auto;
+    width: 950px;
+}
+
+
+.studyInfo_studyGrid_list {
+  display: grid;
+  grid-template-columns: repeat(2,3fr);
+  grid-row-gap: 24px;
+  row-gap: 24px;
+  margin-top: 1px;
+  margin-left: auto;
+}
+
+.studyInfo_contentWrapper_list {
+  display: flex;
+  position: relative;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.studyInfo_title_text1 {
+  color: #717171;
+  margin-right: 36px;
+}
+
+.studyInfo_title_text2 {
+  color: #333;
+}
+
+.studyContent_div_2{
+  margin-top: 0px;
+  padding-bottom: 6px;
+  border-bottom: 3px solid #f2f2f2;
+  display: flex;
+  grid-gap: 15px;
+  gap: 15px;
+  align-items: center;
+}
+
+
+.select_text_v02{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* 게시판 내용 */
+
+.postContent{
+  width: 100%;
+  margin: 40px auto 0;
+}
+
+
+
+.session2 {
+  margin-top: 20px;
+  display: flex;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 10px;
+  height: 20px;
+}
+
+.imgsetting {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.eyessetting {
+  display: block;
+  width: 20px;
+  height: auto;
+  opacity: 50%;
+}
+
+.int_St {
+  color: rgb(153, 153, 153);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bookmark {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+
+.bookmark_img_st {
+  display: block;
+  width: 20px;
+  height: auto;
+  opacity: 80%;
+}
+
+
+
+
+/* 댓글 */
+
+.element.style {
+  padding-bottom: 80px;
+}
+
+
+.commentInput_comment_title {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.commentInput_commentCount {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #939393;
+}
+
+.commentInput_inputContainer {
+  display: flex;
+  grid-gap: 15px;
+  gap: 15px;
+}
+
+.commentInput_buttonWrapper_submit {
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px 0 24px;
+}
+
+.commentInput_profile {
+  display: block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.commentInput_commentText_write {
+  font-family: inherit;
+  padding: 1rem 1rem 1.5rem;
+  outline: none;
+  border: 2px solid #e1e1e1;
+  border-radius: 16px;
+  width: 100%;
+  min-height: 100px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.commentInput_buttonComplete {
+  padding: 12px 24px;
+  height: 40px;
+  background: #333;
+  border-radius: 50px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* 댓글등록 */
+
+.commentItem_commentContainer_all {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+.commentItem_commentHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commentItem_avatarWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.commentItem_userImg {
+  display: block;
+  width: 52px;
+  height: 52px;
+  margin-right: 16px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.commentItem_userNickname {
+  color: #333;
+  font-weight: 700;
+}
+
+.commentItem_registeredDate{
+  font-size: 14px;
+  line-height: 126.5%;
+  letter-spacing: -.005em;
+  color: #9f9f9f;
+}
+
+.commentItem_commentContent{
+  margin-left: 20px;
+}
